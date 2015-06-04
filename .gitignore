@@ -1,2 +1,2 @@
-xe.egg-info
+*.egg-info
 *.pyc
