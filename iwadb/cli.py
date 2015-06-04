@@ -14,7 +14,7 @@ def get(key):
 
 @main.command(help='Set a value')
 @click.argument('key')
-@click.argument('value')
+@click.argument('value', type=click.File('rb'), default='-')
 def set(key, value):
     pass
 
